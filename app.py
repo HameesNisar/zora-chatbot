@@ -6,11 +6,10 @@ import os
 app = Flask(__name__)
 
 # Use your valid Gemini API key here
-API_KEY = "AIzaSyDjmUzZaBbRAnkWk1QYgn8-E2w_5OeQnik"
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Load Gemini 2.0 Flash model
-model = genai.GenerativeModel(model_name="gemini-1.5-flash")  # This is Gemini 2.0 Flash
+
+model = genai.GenerativeModel(model_name="gemini-1.5-flash") 
 
 # Home route
 @app.route('/')
