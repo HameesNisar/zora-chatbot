@@ -6,12 +6,25 @@
 }
 
 body {
-    background: url('../static/bg.jpg') center/cover no-repeat fixed;
+/*     background: url('../static/bg.jpg') center/cover no-repeat fixed; */
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+canvas#iridescence-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
