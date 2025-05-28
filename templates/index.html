@@ -14,18 +14,23 @@
     <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
+    <canvas id="iridescence-bg"></canvas>
+
     <h1>ZORA</h1>
-    
+
     <div class="container">
-        <div id="chatbox">
-            <!-- Messages will be displayed here -->
-        </div>
+        <div id="chatbox"></div>
 
         <form id="messageForm">
             <input type="text" id="messageInput" name="msg" autocomplete="off" placeholder="Type your message..." required>
             <button type="submit">Send</button>
         </form>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ogl@0.0.47/dist/ogl.min.js"></script>
+    <script src="../static/script.js"></script>
+    <script src="../static/iridescence.js"></script>
+</body>
 
     <script src="../static/script.js"></script>
 </body>
