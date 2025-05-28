@@ -144,7 +144,7 @@ class IridescenceBackground {
         // Set initial uniform values
         this.gl.uniform2f(this.uniforms.resolution, this.canvas.width, this.canvas.height);
         this.gl.uniform2f(this.uniforms.mouse, this.mouse.x, this.mouse.y);
-        this.gl.uniform3f(this.uniforms.color, 1.0, 1.0, 1.0);
+        this.gl.uniform3f(this.uniforms.color, 0.0, 1.0, 1.0); // Cyan color (0 red, 1 green, 1 blue)
         this.gl.uniform1f(this.uniforms.amplitude, 0.1);
         this.gl.uniform1f(this.uniforms.speed, 1.0);
     }
