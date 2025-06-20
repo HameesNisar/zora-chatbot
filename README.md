@@ -52,4 +52,4 @@ python app.py
 <p>Free to use. For educational purposes and demos.</p>
 
 <h2>🙌 Credits</h2>
-<p>Created with 💡 by <strong>Hamees Nisar</strong>. Designed to make ZORA feel real — confident, intelligent, and never robotic.</p>
+<p>Created with 💡 by <strong>Hamees</strong>. Designed to make ZORA feel real — confident, intelligent, and never robotic.</p>
